@@ -1,0 +1,116 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('Maquichamba.png');
+  height: 600px;
+  width: 100%;
+}
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+
+
+
+.button{
+  border: rgb(50, 50, 187) 2px solid;
+  border-radius: 10px;
+  padding: 8px 20px;
+  background: rgb(184, 184, 184);
+  color: rgb(66, 128, 199);
+  font-weight: bold;
+  font-size: x-large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+table{
+  width: 100%;
+  border: rgb(0, 65, 187) solid 2px;
+  align-items:center;
+}
+.td1{
+  width: 20%;
+}.nav{
+  font-weight:bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+.td2{
+  width: 30%;
+  border:  rgb(122, 122, 122) solid 2px;
+}
+label{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 140%;
+  font-weight: bolder;
+}
+.navbtn3{
+  width: 80%;
+}
+td{
+  border:  rgb(122, 122, 122) solid 2px;
+}
+input{
+  border-radius: 8px ;
+  border: 3px solid rgb(88, 88, 88);
+  background: #b3b3b3;
+  padding: 6px 15px;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+
+}
+
+nav a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+nav a.active {
+  background-color: #04AA6D;
+  color: rgb(0, 56, 241);
+}
+
+nav a:hover:not(.active) {
+  background-color: rgb(172, 172, 172);
+  color: rgb(0, 17, 255);
+}
+.tds1{
+width: 15%;
+}
+.tds2{
+  width: 85%;
+  }
+  .div{
+    text-align: center;
+    border-top: blue;
+    background: rgb(48, 48, 48);
+    font-size:larger ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
